@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nft-addictive/static/css/main.0cebbf21.chunk.css",
-    "main.js": "/nft-addictive/static/js/main.33811d20.chunk.js",
-    "main.js.map": "/nft-addictive/static/js/main.33811d20.chunk.js.map",
+    "main.js": "/nft-addictive/static/js/main.d64611c6.chunk.js",
+    "main.js.map": "/nft-addictive/static/js/main.d64611c6.chunk.js.map",
     "runtime-main.js": "/nft-addictive/static/js/runtime-main.518f76da.js",
     "runtime-main.js.map": "/nft-addictive/static/js/runtime-main.518f76da.js.map",
     "static/css/2.f1b3b41f.chunk.css": "/nft-addictive/static/css/2.f1b3b41f.chunk.css",
     "static/js/2.b56b0b13.chunk.js": "/nft-addictive/static/js/2.b56b0b13.chunk.js",
     "static/js/2.b56b0b13.chunk.js.map": "/nft-addictive/static/js/2.b56b0b13.chunk.js.map",
     "index.html": "/nft-addictive/index.html",
-    "precache-manifest.4bcf34a0c2a81798b565b7f87d7d66e7.js": "/nft-addictive/precache-manifest.4bcf34a0c2a81798b565b7f87d7d66e7.js",
+    "precache-manifest.10c18e22c8aa4a3c479ae608a20b6071.js": "/nft-addictive/precache-manifest.10c18e22c8aa4a3c479ae608a20b6071.js",
     "service-worker.js": "/nft-addictive/service-worker.js",
     "static/css/2.f1b3b41f.chunk.css.map": "/nft-addictive/static/css/2.f1b3b41f.chunk.css.map",
     "static/css/main.0cebbf21.chunk.css.map": "/nft-addictive/static/css/main.0cebbf21.chunk.css.map",
@@ -27,6 +27,6 @@
     "static/css/2.f1b3b41f.chunk.css",
     "static/js/2.b56b0b13.chunk.js",
     "static/css/main.0cebbf21.chunk.css",
-    "static/js/main.33811d20.chunk.js"
+    "static/js/main.d64611c6.chunk.js"
   ]
 }

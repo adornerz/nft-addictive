@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54ef53881c8100aeb64d1a069a72085d",
+    "revision": "a512c5374ba9b46c37693340a9660fd8",
     "url": "/nft-addictive/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nft-addictive/static/css/2.f1b3b41f.chunk.css"
   },
   {
-    "revision": "aee7d371804e78c7722c",
+    "revision": "777509c5c9d2cc45cbd0",
     "url": "/nft-addictive/static/css/main.0cebbf21.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nft-addictive/static/js/2.b56b0b13.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aee7d371804e78c7722c",
-    "url": "/nft-addictive/static/js/main.33811d20.chunk.js"
+    "revision": "777509c5c9d2cc45cbd0",
+    "url": "/nft-addictive/static/js/main.d64611c6.chunk.js"
   },
   {
     "revision": "f9259b6d435155b17ba0",
