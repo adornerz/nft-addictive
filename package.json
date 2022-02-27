@@ -1,5 +1,5 @@
 {
-  "homepage": "https://adornerz.github.io/nft-addictive",
+  "homepage": "https://adornerz.github.io/nft-addictive/",
   "name": "nft-addictive",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +10,7 @@
     "react-dom": "^16.13.1",
     "react-ga": "^2.7.0",
     "react-multi-carousel": "^2.8.0",
+    "react-reveal": "^1.2.2",
     "react-router": "^6.2.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.1",

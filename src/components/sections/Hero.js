@@ -4,6 +4,7 @@ import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
+import Shake from 'react-reveal/Shake';
 
 const propTypes = {
   ...SectionProps.types
@@ -34,7 +35,7 @@ const Hero = ({
   const closeModal = (e) => {
     e.preventDefault();
     setVideomodalactive(false);
-  }   
+  }
 
   const outerClasses = classNames(
     'hero section center-content',
@@ -59,31 +60,31 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
+            <h1 className="mt-0 mb-16">
               nft.addictive club
             </h1>
             <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                  A big <span className='text-color-primary'> NFT community </span> with over 
-                  <span className='text-color-secondary'> 110,000 </span> followers on instagram
-                  and with well over 40 NFT collection participations
-                </p>
-              <div className="reveal-from-bottom" data-reveal-delay="600">
+              <p className="m-0 mb-32">
+                A big <span className='text-color-primary'> NFT community </span> with over
+                <span className='text-color-secondary'> 110,000 </span> followers on instagram
+                and with well over 40 NFT collection participations
+              </p>
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://instagram.com/nft.addictive">
-                    Check Out Our Instagram
+                  <Shake>
+                    <Button tag="a" color="primary" wideMobile href="https://instagram.com/nft.addictive">
+                      Check Out Our Instagram
                     </Button>
+                  </Shake>
                 </ButtonGroup>
-              </div>
             </div>
           </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-              <Image
-                className="has-shadow"
-                src={require('./../../assets/images/hero-image.jpg')}
-                alt="Hero"
-                width={896}
-                height={504} />
+          <div className="hero-figure illustration-element-01">
+            <Image
+              className="has-shadow"
+              src={require('./../../assets/images/hero-image.jpg')}
+              alt="Hero"
+              width={896}
+              height={504} />
           </div>
         </div>
       </div>

@@ -63,7 +63,7 @@ const Cta = ({
               </h3>
           </div>
           <div className="cta-action">
-            <Button tag="a" href="https://instagram.com/nft.addictive" style={style.button} color="dark"> Instagram </Button>
+            <Button tag="a" href="https://instagram.com/nft.addictive" style={style.button} color="dark"> Instagram: nft.addictive </Button>
             <Button tag="a" color="dark" style={style.button}> Discord: amogus#6969 </Button>
             <Button tag="a" color="dark" style={style.button}> Email: nft.addictive@gmail.com </Button>
           </div>

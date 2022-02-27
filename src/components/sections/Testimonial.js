@@ -2,6 +2,8 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
+import { Fade } from 'react-reveal';
+import testomonialsData from "./testimonial.data"
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -58,57 +60,29 @@ const Testimonial = ({
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
 
-            <div className="tiles-item reveal-from-right" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Working with nft.addictive was a great experience and I'm looking forward to working more in the future!
-                      </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high"> Levy Rozman </span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0"> BAYC </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — I'm impressed by nft.addictive's community they built, really awesome people.
-                      </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0"> NFTxFASHION </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-left" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Ball
-                      </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Ben Stafford</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0"> Testicle </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-
+            {
+              testomonialsData.map(({ text, author, project, reval }) => (
+                <Fade>
+                  <div className="tiles-item">
+                    <div className="tiles-item-inner">
+                      <div className="testimonial-item-content">
+                        <p className="text-sm mb-0">
+                          {text}
+                        </p>
+                      </div>
+                      <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                        <span className="testimonial-item-name text-color-high"> {author} </span>
+                        <span className="text-color-low"> / </span>
+                        <span className="testimonial-item-link">
+                          <a href="#0"> {project} </a>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </Fade>
+              ))
+            }
+            
           </div>
         </div>
       </div>
