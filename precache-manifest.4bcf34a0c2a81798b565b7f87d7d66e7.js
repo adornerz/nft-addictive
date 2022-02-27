@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "239ba1e9674548f5de1db879e44bd749",
+    "revision": "54ef53881c8100aeb64d1a069a72085d",
     "url": "/nft-addictive/index.html"
   },
   {
-    "revision": "92b979932acd434b8668",
+    "revision": "02f8c040e513f3785445",
     "url": "/nft-addictive/static/css/2.f1b3b41f.chunk.css"
   },
   {
-    "revision": "6caa53a521474b2f1414",
+    "revision": "aee7d371804e78c7722c",
     "url": "/nft-addictive/static/css/main.0cebbf21.chunk.css"
   },
   {
-    "revision": "92b979932acd434b8668",
-    "url": "/nft-addictive/static/js/2.33bcb209.chunk.js"
+    "revision": "02f8c040e513f3785445",
+    "url": "/nft-addictive/static/js/2.b56b0b13.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/nft-addictive/static/js/2.33bcb209.chunk.js.LICENSE.txt"
+    "url": "/nft-addictive/static/js/2.b56b0b13.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6caa53a521474b2f1414",
-    "url": "/nft-addictive/static/js/main.fa5f6268.chunk.js"
+    "revision": "aee7d371804e78c7722c",
+    "url": "/nft-addictive/static/js/main.33811d20.chunk.js"
   },
   {
     "revision": "f9259b6d435155b17ba0",
