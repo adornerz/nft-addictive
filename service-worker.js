@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nft-addictive/precache-manifest.10c18e22c8aa4a3c479ae608a20b6071.js"
+  "/nft-addictive/precache-manifest.f415786bc058ed31ae5ad5480ae1fe74.js"
 );
 
 self.addEventListener('message', (event) => {
